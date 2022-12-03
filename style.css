@@ -1,0 +1,32 @@
+/** footers **/
+
+.footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--off-white);
+    padding: 1rem 0;
+    margin: 1rem;
+    max-width: 396px;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  .footer .link {
+    color: var(--off-white);
+    text-decoration: none;
+    cursor:pointer;
+  }
+  
+  .footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .footer .list-item-inline {
+    display: inline;
+    padding: 1rem;
+  }
+  
+  ul{
+    padding-inline-start: 0px;
+  }
