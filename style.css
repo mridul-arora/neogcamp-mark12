@@ -3,7 +3,6 @@
 :root {
     --primary-color: #c2410c;
     --secondary-color: #f97316;
-    --desc-color: #fed7aa;
     --off-white: #fff7ed;
     --dark-gray: #57534e;
 }
@@ -114,13 +113,13 @@ a{
     padding: 2px 0;
   }
 
-  .label-input, .angles, .sides{
+  .label-input, .angles, .sides, .length, .label-ques{
     width: 50%;
     min-width: 70%;
     margin: 10px 3px;
   }
 
-  #btn-isitatriangle, #btn-calculateArea, #btn-submitquiz{
+  #btn-isitatriangle, #btn-calculateArea, #btn-submitquiz, #btn-calculateHypote{
     background-color: var(--secondary-color);
     color: var(--off-white);
     padding: 0.5rem 1rem;
