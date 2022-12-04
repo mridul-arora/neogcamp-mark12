@@ -27,12 +27,29 @@
             </a>
         </div>
         <div class="description">
-            Enter 3 angles of a triangle and check whether they form a triangle or not?
+            Enter 3 angles and check whether they form a triangle or not?
+            <hr>
         </div>
     </div>
 
     <div class="container">
+        <div class="angle-container">
+            <label class="label-input" for="angles">Angle 1: </label>
+            <input class="angles" type="number" placeholder="eg. 90°">
+        </div>
+        <div class="angle-container">
+            <label class="label-input" for="angles">Angle 2: </label>
+            <input class="angles" type="number" placeholder="eg. 60°">
+        </div>
+        <div class="angle-container">
+            <label class="label-input" for="angles">Angle 3: </label>
+            <input class="angles" type="number" placeholder="eg. 30°">
+        </div>
+        <br><button id="btn-isitatriangle">Check</button>
 
+        <hr>
+        <p id="outputText"></p>
+        <small><p id="outputHint"></p></small>
     </div>
 
     <div class="footer">

@@ -97,3 +97,35 @@ a{
   ul{
     padding-inline-start: 0px;
   }
+  
+  /* container */
+
+  .container{
+    background-color: var(--off-white);
+    display: block;
+    margin: -1rem -1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .angle-container{
+    display: inline-block;
+    max-width: 30%;
+    padding: 2px 0;
+  }
+
+  .label-input, .angles{
+    width: 50%;
+    min-width: 70%;
+    margin: 10px 3px;
+  }
+
+  #btn-isitatriangle{
+    background-color: var(--secondary-color);
+    color: var(--off-white);
+    padding: 0.5rem 1rem;
+    border: none;
+    margin: 2% 5%;
+    cursor: pointer;
+    font-weight: bold;
+  }
