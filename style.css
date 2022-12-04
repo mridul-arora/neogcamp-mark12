@@ -108,19 +108,19 @@ a{
     text-align: center;
   }
 
-  .angle-container{
+  .angle-container, .side-container{
     display: inline-block;
     max-width: 30%;
     padding: 2px 0;
   }
 
-  .label-input, .angles{
+  .label-input, .angles, .sides{
     width: 50%;
     min-width: 70%;
     margin: 10px 3px;
   }
 
-  #btn-isitatriangle{
+  #btn-isitatriangle, #btn-calculateArea, #btn-submitquiz{
     background-color: var(--secondary-color);
     color: var(--off-white);
     padding: 0.5rem 1rem;
@@ -128,4 +128,15 @@ a{
     margin: 2% 5%;
     cursor: pointer;
     font-weight: bold;
+    box-shadow: 0 4px 8px 0 var(--dark-gray);
+  }
+
+  .ques-para{
+    width: 50%;
+  }
+
+  .col{
+    display: inline-flex;
+    margin: 0.5rem;
+    padding: 0.5rem;
   }
