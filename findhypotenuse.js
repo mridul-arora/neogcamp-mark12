@@ -8,6 +8,7 @@ function showText(text) {
 }
 
 function showHint(text) {
+    outputHint.style.display = "block";
     outputHint.innerText = text;
 }
 
