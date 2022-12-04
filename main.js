@@ -8,6 +8,7 @@ btnIsitaTriangle.addEventListener("click", function clickButtonHandler(){
             checkIfTriangle(anglesOfaTriangle[0].value,anglesOfaTriangle[1].value,anglesOfaTriangle[2].value);
     }else{
         showText("❗ Please enter all three values.");
+        hideHint();
     }
 });
 
@@ -18,11 +19,15 @@ function showText(text){
 function showHint(text){
     outputHint.innerText = text;
 }
+function hideHint(){
+    outputHint.style.display="none";
+}
 
 function checkIfTriangle(one,two,three){
     const sum = Number(one)+Number(two)+Number(three);
 if(sum === 180){
     showText("👏🏻 It's a triangle!");
+    hideHint();
 }else{
     showText("👎🏻 It's not a triangle!");
     showHint("Hint: Sum of angles of a triangle equals 180°.");
