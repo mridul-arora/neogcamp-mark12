@@ -103,7 +103,8 @@ a{
     background-color: var(--off-white);
     display: block;
     margin: -1rem -1rem;
-    padding-top: 1rem;
+    padding: 1rem;
+    padding-bottom: 0rem;;
     text-align: center;
     border-bottom: 1.2vh solid var(--secondary-color);
     border-radius: 0.5rem;
