@@ -27,9 +27,6 @@ body {
     box-shadow: 0 4px 8px 0 var(--dark-gray), 0 6px 20px 0 var(--dark-gray);
 }
 
-.navbar{
-  box-shadow: 0 4px 8px 0 var(--dark-gray), 0 6px 20px 0 var(--dark-gray);
-}
 a{
   text-decoration: none;
   color: var(--off-white);
@@ -41,8 +38,10 @@ a{
   background-color: var(--secondary-color);
   color: var(--off-white);
   margin: -0.2rem -1rem;
-  padding: 1rem;
-  border-radius: 0.5rem;
+  padding: 1rem 1rem 0.7vw 1rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom: 2.5vh solid var(--off-white);
   
 }
 .sub-heading{
@@ -72,9 +71,10 @@ a{
     background-color: var(--primary-color);
     color: var(--off-white);
     padding: 1rem;
-    margin: 1rem -1rem;
+    margin: 2rem -1rem;
     width: 100%;
     border-radius: 0.5rem;
+    box-shadow: 0 -4px 8px 0 var(--dark-gray), 0 -6px 20px 0 var(--dark-gray);
   }
   
   .footer .link {
@@ -103,8 +103,10 @@ a{
     background-color: var(--off-white);
     display: block;
     margin: -1rem -1rem;
-    padding: 1rem;
+    padding-top: 1rem;
     text-align: center;
+    border-bottom: 1.2vh solid var(--secondary-color);
+    border-radius: 0.5rem;
   }
 
   .angle-container, .side-container{
